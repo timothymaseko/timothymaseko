@@ -1,0 +1,165 @@
+html {
+    background-color: gray;
+}
+
+body{
+    width: 960px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: white;
+}
+
+.head {
+    background-color: grey;
+    padding: 10px;
+}
+
+.logo {
+    display: inline;
+    float: right;
+    border-radius: 100px;
+    padding-bottom: 3px;
+}
+
+.head_text {
+    display: inline;
+}
+
+h1 {
+    margin-bottom: -20px;
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head_text h3 {
+    letter-spacing: 3px;
+    margin-bottom: -8px;
+    color:rgb(46, 204, 209);
+    font-family: Arial;
+}
+
+.infor {
+    background-color: black;
+    padding: 10px;
+    color: antiquewhite;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.infor img {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+ul {
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color:darkseagreen;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.head_three {
+    font-family: Arial;
+    margin-bottom: -25px;
+    color: black;
+}
+
+.subtitle {
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: cadetblue;
+    margin-bottom: -12px;
+}
+
+p {
+    font-size: 19px;
+}
+
+.course {
+    font-size: 18px;
+    margin-bottom: -15px;
+}
+
+.skill {
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+div h2{
+    margin-bottom: -9px;
+}
+
+.langs {
+    margin-bottom: 6px;
+}
+
+.languages h3{
+    display: inline;
+    color: cadetblue;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.borders p{
+    display: inline-block;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: dimgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.rows {
+    letter-spacing: 3px;
+    display: flex;
+    width: 100%;
+}
+
+.columns{
+    flex: 1;
+    padding: 16px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}

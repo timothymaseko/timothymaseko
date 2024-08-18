@@ -1,0 +1,16 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.col-container {
+    float: right;
+    display: table;
+    width: 100%;
+}
+
+.col {
+    display: table-cell;
+}
